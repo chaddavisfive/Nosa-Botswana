@@ -189,25 +189,25 @@
             </ul>
         </nav>
     </header>
+<!-- Contact Form -->
+<div class="container">
+    <h1>Contact Us</h1>
+    <p>Please fill in the form below to contact us for a quotation:</p>
 
-    <!-- Contact Form -->
-    <div class="container">
-        <h1>Contact Us</h1>
-        <p>Please fill in the form below to contact us for a quotation:</p>
+    <form action="https://formspree.io/f/xwplzwky" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
 
-        <form action="mailto:ted@nosa.co.bw?subject=quotation" method="post" enctype="text/plain">
-            <label for="name">Full Name:</label>
-            <input type="text" id="name" name="name" required>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
 
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="6" required></textarea>
-
-            <button type="submit">Send Message</button>
-        </form>
-
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+    
         <!-- Contact Information -->
         <div class="contact-info">
             <h2>Our Contact Information</h2>
